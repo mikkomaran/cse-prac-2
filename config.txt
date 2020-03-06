@@ -13,3 +13,6 @@
 	a = add
 	s = status
 	c = commit -m
+
+
+*.class - Java class files that are produced by compiling *.java files.
