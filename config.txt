@@ -1,0 +1,16 @@
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[user]
+	email = mixxo.maran@gmail.com
+	name = Mikko Maran
+[core]
+	editor = notepad
+[alias]
+	co = checkout
+	c = commit
+	a = add
+	s = status
+	c = commit -m
